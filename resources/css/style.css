@@ -1,0 +1,134 @@
+/* message d'erreur */
+.errorText
+{
+	color: #F00;
+}
+
+/* Boîte a message d'erreur */
+.errorBox
+{
+	border: 1px solid #F00; 
+
+	margin-left: 5px;
+	margin-right: 10px;
+
+	padding: 5px; 
+
+	background-color: #FFC0C0; 
+
+	color: #9A0000; 
+	font-weight: bold; 
+}
+
+#errorBox a
+{
+	color: #000;
+}
+
+/* Boîboîte a infos (sans blague, ^^) */
+.infosBox
+{
+	border: 1px solid #243DDD;
+	
+	background-color: #dbe0fc;
+	
+	padding: 5px;
+	
+	color: #003299;
+	font-weight: bold;
+}
+
+/* Boîte a message succes - Une fois n'est pas coutume ;-) */
+.successBox
+{
+	border: 1px solid #0F0; 
+
+	margin-left: 5px;
+	margin-right: 10px;
+
+	padding: 5px; 
+
+	background-color: #b9ffd3; 
+
+	color: #050; 
+	font-weight: bold; 
+}
+
+/* BoÃ®te de confirmation */
+.confirmationBox
+{
+	border: 1px solid #243DDD;
+	background-color: #DBE0FC; 
+
+	padding: 5px;
+
+	width: 450px;
+
+	margin: auto;
+}
+
+.small
+{
+	font-size: 12px;
+}
+
+table#repetiteurRegister, table.repetiteurTermBlock td
+{
+	vertical-align: top;
+}
+
+span.error
+{
+	color: #F00;
+}
+
+span.subtitle
+{
+	font-weight: bold;
+	font-size: 110%;
+}
+
+td.infos0
+{
+	background-color: #f1e4e4;
+	padding: 2px;
+}
+
+td.infos1
+{
+	padding: 2px;
+}
+
+td.infosC0
+{
+	background-color: #f1e4e4;
+	padding: 2px;
+	text-align: center;
+}
+
+td.infosC1
+{
+	padding: 2px;
+	text-align: center;
+}
+
+thead td
+{
+	font-weight: bold;
+	padding: 2px 4px 2px 4px;
+}
+
+#student_searchResults thead td
+{
+	font-size: 115%;
+}
+
+table#student_searchResults td
+{
+	text-align: left;
+}
+
+table#student_searchResults a
+{
+	color: #000;
+}

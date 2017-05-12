@@ -1,0 +1,1 @@
+<div>Bonjour, {M_FORENAME}. &nbsp;[ <a href="log.php" class="normal">Logout</a> ]</div>
