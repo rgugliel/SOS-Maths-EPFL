@@ -184,7 +184,7 @@ class repetiteur
 			}
 		}
 		
-		if (!empty($this->data['email']) && !preg_match('/^([[:alpha:]-_.]+)@(a3.|alumni.){0,1}epfl.ch$/', $this->data['email']))
+		if (!empty($this->data['email']) && !preg_match('/^([[:alpha:]\-_.]+)@(a3.|alumni.){0,1}epfl.ch$/', $this->data['email']))
 		{
 			$this->error = 'EMAIL_BAD';
 			$this->fieldsError[ ] = 'email';
